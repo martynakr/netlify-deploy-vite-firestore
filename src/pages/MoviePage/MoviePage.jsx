@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getMovieById } from "../../../services/movies";
-import styles from "./MOviePage.module.scss";
+import styles from "./MoviePage.module.scss";
 import { incrementTimesWatched } from "../../../services/movies";
 import { RefreshContext } from "../../context/RefreshContextProvider";
 
